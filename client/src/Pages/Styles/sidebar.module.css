@@ -1,0 +1,42 @@
+.sidebar {
+}
+.verse {
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.8px #fff;
+}
+
+.title {
+    font-family: 'Cookie', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.linkIco {
+    min-width: 25px;
+    font-size: 1.4rem;
+    margin-right: 5px;
+}
+
+.link p {
+    transition: .4s all !important;
+}
+.link i {
+    transition: .4s all !important;
+}
+.link:hover p, .link:hover i {
+    opacity: 1;
+}
+.link:hover img {
+    background-blend-mode: multiply;
+    background: #547cff;
+    font-family: Arial, sans-serif;
+}
+
+
+@media screen and (max-width: 700px)
+{
+    .sidebar {
+        display: none;
+    }
+}

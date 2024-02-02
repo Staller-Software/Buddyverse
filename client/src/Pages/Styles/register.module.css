@@ -1,0 +1,40 @@
+html {
+    font-size: 14px;
+}
+
+.registercontainer {
+    background-image: url("../../assets/peoples.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: rgba(5, 14, 35, 0.97);
+}
+
+
+
+@media screen and (max-width: 954px)
+{
+    .register_infocontainer {
+        width: 100% !important;
+        height: 100vh !important;
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 790px) {
+    html {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 500px)
+{
+    .register_infocontainer div {
+        width: 95%;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    html {
+        font-size: 12px;
+    }
+}
